@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.ContentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_vert">
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linLayout_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/layout_hori"
+        android:paddingLeft="@dimen/layout_hori"
+        android:paddingTop="@dimen/layout_vert"
+        android:paddingBottom="@dimen/layout_vert">
+
+    <TextView
+        android:id="@+id/txv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/am_txv_title"
+        android:textStyle="bold"
+        android:textSize="@dimen/txv_title_size"
+        android:layout_marginBottom="@dimen/txv_title_marginBotton"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txi_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txi_hint_name"
+        android:layout_marginBottom="@dimen/txi_marginBottom"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edTxt_name"
+            android:drawableLeft="@drawable/ic_name"
+            android:drawablePadding="@dimen/ic_edTxt_padding"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text">
+        </android.support.design.widget.TextInputEditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txi_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txi_hint_date"
+        android:layout_marginBottom="@dimen/txi_marginBottom"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edTxt_date"
+            android:drawableLeft="@drawable/ic_calendar"
+            android:drawablePadding="@dimen/ic_edTxt_padding"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="false">
+        </android.support.design.widget.TextInputEditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txi_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txi_hint_tel"
+        android:layout_marginBottom="@dimen/txi_marginBottom"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edTxt_tel"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="@dimen/ic_edTxt_padding"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number">
+        </android.support.design.widget.TextInputEditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txi_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txi_hint_mail"
+        android:layout_marginBottom="@dimen/txi_marginBottom"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edTxt_mail"
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawablePadding="@dimen/ic_edTxt_padding"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress">
+        </android.support.design.widget.TextInputEditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txi_resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txi_hint_resume"
+        android:layout_marginBottom="@dimen/txi_marginBottom"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edTxt_resume"
+            android:drawableLeft="@drawable/ic_resume"
+            android:drawablePadding="@dimen/ic_edTxt_padding"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textLongMessage">
+        </android.support.design.widget.TextInputEditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v4.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/btn_continue"
+        android:textSize="@dimen/btn_textSize_continue"
+        android:textStyle="bold"
+        android:padding="@dimen/btn_padding"
+        android:theme="@style/MyRaisedButton"/>
+
+
+</android.support.v7.widget.ContentFrameLayout>
+

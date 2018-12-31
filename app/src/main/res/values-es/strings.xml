@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Registro</string>
+
+
+    <string name="am_txv_title">Informacion de Contacto</string>
+    <string name="adc_txv_title">Confirmacion de Datos</string>
+
+    <string name="txi_hint_name">Nombre</string>
+    <string name="txi_hint_date">Fecha de Nacimiento</string>
+    <string name="txi_hint_tel">Telefono</string>
+    <string name="txi_hint_mail">Correo</string>
+    <string name="txi_hint_resume">Descripcion</string>
+
+    <string name="btn_continue">SIGUIENTE</string>
+    <string name="btn_confirm">¡VAMOS!</string>
+    <string name="btn_edit">EDITAR DATOS</string>
+
+    <!-- FORMS ERROR`S -->
+    <string name="txi_error_name">Necesitas colocar un nombre</string>
+    <string name="txi_error_date">Necesitas colocar una fecha de nacimiento</string>
+    <string name="txi_error_tel">Necesitas colocar un telefono</string>
+    <string name="txv_noData">(Vacio)</string>
+
+    <!-- PARAMETROS O EXTRAS -->
+    <string name="pDatosUsuario">pDatosUsuario</string>
+</resources>

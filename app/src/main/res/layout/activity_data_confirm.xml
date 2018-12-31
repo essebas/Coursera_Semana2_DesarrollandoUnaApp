@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.ContentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clipToPadding="false"
+    tools:context=".DataConfirm">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_dataConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linLayout_dataConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/layout_hori"
+        android:paddingLeft="@dimen/layout_hori"
+        android:paddingTop="@dimen/layout_vert"
+        android:paddingBottom="@dimen/layout_vert">
+
+        <TextView
+            android:id="@+id/txv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adc_txv_title"
+            android:textStyle="bold"
+            android:textSize="@dimen/txv_title_size"
+            android:layout_marginBottom="@dimen/txv_title_marginBotton"
+            android:textColor="@color/colorPrimaryText"/>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linLayout_dataGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/LinLayout_group_marginBotton">
+
+            <TextView
+                android:id="@+id/txv_secondTitle_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_name"
+                android:textStyle="bold"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorPrimaryText"/>
+
+            <TextView
+                android:id="@+id/txv_secondText_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_name"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorSecondaryText"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linLayout_dataGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/LinLayout_group_marginBotton">
+
+            <TextView
+                android:id="@+id/txv_secondTitle_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_date"
+                android:textStyle="bold"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorPrimaryText"/>
+
+            <TextView
+                android:id="@+id/txv_secondText_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_date"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorSecondaryText"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linLayout_dataGroup3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/LinLayout_group_marginBotton">
+
+            <TextView
+                android:id="@+id/txv_secondTitle_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_tel"
+                android:textStyle="bold"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorPrimaryText"/>
+
+            <TextView
+                android:id="@+id/txv_secondText_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_tel"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorSecondaryText"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linLayout_dataGroup4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/LinLayout_group_marginBotton">
+
+            <TextView
+                android:id="@+id/txv_secondTitle_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_mail"
+                android:textStyle="bold"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorPrimaryText"/>
+
+            <TextView
+                android:id="@+id/txv_secondText_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_mail"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorSecondaryText"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linLayout_dataGroup5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/LinLayout_group_marginBotton">
+
+            <TextView
+                android:id="@+id/txv_secondTitle_resume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_resume"
+                android:textStyle="bold"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorPrimaryText"/>
+
+            <TextView
+                android:id="@+id/txv_secondText_resume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txi_hint_resume"
+                android:textSize="@dimen/txv_data_size"
+                android:textColor="@color/colorSecondaryText"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linLayout_btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:elevation="60dp">
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_edit"
+            android:textSize="@dimen/btn_textSize_continue"
+            android:textStyle="bold"
+            android:padding="@dimen/btn_padding"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:background="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_confirm"
+            android:textSize="@dimen/btn_textSize_continue"
+            android:textStyle="bold"
+            android:padding="@dimen/btn_padding"
+            android:theme="@style/MyRaisedButton"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.v7.widget.ContentFrameLayout>

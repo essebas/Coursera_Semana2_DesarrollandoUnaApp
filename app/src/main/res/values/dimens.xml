@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="layout_vert">40dp</dimen>
+    <dimen name="layout_hori">20dp</dimen>
+
+    <dimen name="ic_edTxt_padding">10dp</dimen>
+    <dimen name="LinLayout_group_marginBotton">10dp</dimen>
+    <dimen name="txv_title_marginBotton">40dp</dimen>
+    <dimen name="txi_marginBottom">20dp</dimen>
+
+    <dimen name="txv_title_size">40sp</dimen>
+    <dimen name="txv_data_size">25sp</dimen>
+    <dimen name="btn_textSize_continue">20sp</dimen>
+    <dimen name="btn_padding">20dp</dimen>
+
+</resources>
