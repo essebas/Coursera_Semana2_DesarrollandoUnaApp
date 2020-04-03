@@ -1,7 +1,7 @@
 # Aplicación de Registro 
 
 Las siguientes imágenes y descripciones tendrán como fin mostrar desde una perspectiva general la composición y la estructura de la aplicación.
-Un desarrollo realizado para culminar la semana 2, Desarrollo de aplicaciones con Android, Coursera.
+
 
 ## 1. Formulario, vista inicial:
 
